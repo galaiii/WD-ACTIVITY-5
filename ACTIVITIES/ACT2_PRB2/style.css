@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+  background-color: blue;
+  padding: 5px;
+  text-align: center;
+
+
+}
+.title-sched{
+  background-color: yellow;
+  border: 1px blue solid;
+}
+.container{
+  margin: 20px;
+}
+
+header a{
+  color: white;
+  text-decoration: none;
+  
+}
+
+a:hover{
+  color: white;
+  box-shadow: 0 0 10px 5px #ffffff4f;
+}
+.container {
+  text-align: center;
+  font-size: 90%;
+  margin-top: 10px;
+}
+
+header{
+  background-color: blue;
+  padding: 5px;
+  text-align: center;
+
+
+}
+
+header a{
+  color: white;
+  text-decoration: none;
+  
+}
+
+td{
+  padding: 3px;
+}
+
+
+.table td, .table th{
+  border: 1px solid #2108ff;
+}
+
+
+@media only screen and (max-width: 900px) {
+  *{font-size: xx-small;}
+
+  header{
+      padding: 10px 20px 5px 20px;
+  }
+  header h2{
+      font-size: medium;
+  }
+
+  header h4{
+      font-size: x-small;
+  }
+
+}
